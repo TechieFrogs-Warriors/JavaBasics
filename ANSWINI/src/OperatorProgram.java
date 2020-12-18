@@ -44,7 +44,7 @@ public class OperatorProgram {
         System.out.println(t);
 
         System.out.println("*******Assignment Operation Output********");
-        //ASSIGNMENT OPERATORS 
+        //ASSIGNMENT OPERATORS & COMPARISION OPERATORS
         int p=3;int q=8;
         System.out.println("Addition Assignment = "+(p+=7));
         System.out.println("Addition Assignment = "+(p+=q));
@@ -54,6 +54,12 @@ public class OperatorProgram {
         System.out.println("Divison Assignment = "+(p/=q));
         System.out.println("Modulus Assignment = "+(q%=p));
         System.out.println("Equal Assignment = "+(p==q));
+        System.out.println("comparision of p>q = "+(p>q));
+        System.out.println("comparision of p<q = "+(p<q));
+        System.out.println("comparision of p==q = "+(p==q));
+        System.out.println("comparision of p>=q = "+(p>=q));
+        System.out.println("comparision of p<=q = "+(p<=q));
+        System.out.println("comparision of p!=q = "+(p!=q));
 
         System.out.println("********TERNARY OPERATION OUTPUT**********");
         //TERNARY OPERATOR
