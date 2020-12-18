@@ -47,11 +47,10 @@ public class Newoperators
      //assignment operators 
      System.out.println("ASSIGNMENT OPERATORS");
      int j = 19;
-     short k = 8;
+     short k =10;
      System.out.println("assign " +(j+=7));
      System.out.println("assign " +(k-=5));
      System.out.println("assign "+(j=j+k));
-
      System.out.println("tlide "    +(~k));
 
      //ternary operator
@@ -61,7 +60,18 @@ public class Newoperators
      int n;
      System.out.println( "ternary " +(n=(((l+m)<19)?l:m)));
     
-        
+     //comparison operator
+     System.out.println("COMPARISON OPERATORS");
+     int o = 12;
+     int p = 17;
+     System.out.println("equal to "           +(o==p));
+     System.out.println("less then or equal"  +(o<=p));
+     System.out.println("grater then or equal"+(o>=p));
+     System.out.println("grater then "         +(o>p));
+     System.out.println("less then "           +(o<p));
+     System.out.println("not equal "          +(o!=p));
+
+    
  }
     
 }
