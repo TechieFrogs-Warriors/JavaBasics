@@ -1,5 +1,6 @@
 public class Controlstatementprogram2 {
     public static void main(String[] args) {
+        System.out.println("IF ELSE....");
         int temp = 30;
         int humidity =88;
         if(temp>30 && humidity<100){
@@ -10,7 +11,7 @@ public class Controlstatementprogram2 {
         }
         System.out.println("NESTED IF....");
         int c = 10;
-        if (c == 1){
+        if (c == 10){
             if (c < 15)
             System.out.println("c is smaller than 15"); 
             if (c < 12) 
@@ -49,7 +50,10 @@ public class Controlstatementprogram2 {
         default:
         size = "Unknown";
         break;
+        
     }
+    System.out.println("Size: " + size);
+    
 
     
     }
