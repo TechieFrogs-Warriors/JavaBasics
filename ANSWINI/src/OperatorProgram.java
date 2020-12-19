@@ -31,7 +31,7 @@ public class OperatorProgram {
         System.out.println("Left shift operation = "+(f=d<<e));
         System.out.println("Right shift operation = "+(f=d>>e));
 
-        System.out.println("*******BITWISE AND LOGICAL OPERATORS AND & RELATIONAL OPERATORS*********");
+        System.out.println("*******BITWISE AND LOGICAL OPERATORS AND  RELATIONAL OPERATORS*********");
         //BITWISE AND LOGICAL OPERATORS & RELATIONAL OPERATORS
         int s=5;int t=6;int u=2;
         System.out.println("Bitwise AND(&) = "+(t<s&t++<u));
