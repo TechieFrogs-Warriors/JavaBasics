@@ -11,7 +11,6 @@ public class OperatorProgram {
         System.out.println("Arithmatic Modulus of a%b = " +(c=a%b));
 
         System.out.println("********UNARY OPERATIONS OUTPUT*******");
-
         //UNARY OPERATIONS
         int k=45;boolean n=false;int j=-45;
         System.out.println("Print first and then increment = "+(k++));
@@ -66,17 +65,7 @@ public class OperatorProgram {
         int x=80;int y=50;int sum;
         sum=((x+y)<100)?x:y;
         System.out.println(sum);
-        
-        
-
-        
-
-
-
-
        
    }
-        
-    
-    
+         
 }
