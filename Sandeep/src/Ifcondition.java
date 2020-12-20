@@ -31,19 +31,17 @@ public class Ifcondition {
         }
         System.out.println("-------Nested if condidtion--------");
         int x = 25;
-        int y = 25;
-        int z = 25;
+        int y = 50;
+        int z = 45;
         if (x > y) {
             if (x > z) {
                 System.out.println("x is greater than y and z");
             }
-        }
-        if (y > x) {
+        } else if (y > x) {
             if (y > z) {
                 System.out.println("y is greater than x and z");
             }
-        }
-        if (z > x) {
+        } else if (z > x) {
             if (z > y) {
                 System.out.println("z is greater than x and y");
             }
