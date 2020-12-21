@@ -11,6 +11,8 @@ public class Arthmeticoperater {
         System.out.println("Division of x and y is:" + (x / y));
         System.out.println("Percentage of x and y is:" + (x % y));
         System.out.println("  a and b is:" + (a - b));
+        int c = (x * a) - (x + y) * (x - y);
+        System.out.println("c:" + c);
     }
 
 }
