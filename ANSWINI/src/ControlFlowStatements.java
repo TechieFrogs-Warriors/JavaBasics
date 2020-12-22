@@ -35,13 +35,15 @@ public class ControlFlowStatements
                 
                  System.out.println("TAKE PRODUCT IN OTHER COLOUR\n");
                 
-            }
-            else
+            }else
             {
                 System.out.println("Nothing Happened");
             }
 
-        }
+        }else
+             {
+            System.out.println("PRODUCT NOT AVAILABLE");
+             }
 
         //SWITCH STATEMENTS
         System.out.println("*****Switch Statements Output*****");
