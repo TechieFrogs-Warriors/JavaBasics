@@ -1,20 +1,29 @@
+import java.util.*;
+
 public class Switchprogram {
     public static void main(String[] args) {
-        String ch = "body Fitness";
+        Scanner obj = new Scanner(System.in);
+        String ch;
+        System.out.println("Enter Yor choice: ");
+        ch = obj.nextLine();
+
         switch (ch) {
             case "body Fitness":
-                int x = 10;
-                System.out.println(x);
-                int weight = 60;
+
+                Scanner obj1 = new Scanner(System.in);
+                System.out.println("Enter Yor weight: ");
+                int weight;
+                weight = obj1.nextInt();
+
                 if (weight <= 60) {
-                    int m = 20;
+
                     System.out.println("he is fit");
                 } else if (weight > 60 && weight <= 70) {
-                    int m = 20;
+
                     System.out.println("he / she is ok but need sone trainging in the weight loss");
-                    System.out.println(x);
+
                 } else if (weight > 70 && weight <= 80) {
-                    int m = 20;
+
                     System.out.println("he is not up to mark in fitness and need to traineed and motivated");
 
                 } else {
@@ -28,12 +37,12 @@ public class Switchprogram {
                 break;
 
             default:
-                int x = 10;
-                System.out.println(x);
+
                 System.out.println("other reqirements");
                 break;
 
         }
+        obj.close();
     }
 
 }
