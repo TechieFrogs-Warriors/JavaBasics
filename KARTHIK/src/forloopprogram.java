@@ -3,7 +3,7 @@ public class forloopprogram {
         int a,b;
         for (a=1;a<=1;a++){
             for (b=1;b<=3;b++){
-        System.out.print(a  +b +" ");
+        System.out.print(a   +" "+b);
     }
     }
    //for loop
@@ -28,11 +28,11 @@ public class forloopprogram {
         }
 
         //labeled for loop
-        int g,h;
+        int g;
         ram:
         for (g=1;g<=4;g++){
             raheem:
-            for (h=4;h>=g;h--){
+            for (int h=4;h>=g;h--){
                 System.out.print(g +" "+h);
                 break raheem;
             }

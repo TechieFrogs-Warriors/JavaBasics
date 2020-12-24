@@ -1,9 +1,9 @@
 public class NestedForExample {
     public static void main(String[] args) {
-        int i,j,term=5;
-        for( i=1;i<=term;i++)
+        int i,j;
+        for( i=1;i<=5;i++)
         {
-            for(j=term;j>=i;j--)
+            for(j=1;j<=i;j++)
             {
             
                 
