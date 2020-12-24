@@ -1,3 +1,5 @@
+import javax.lang.model.util.ElementScanner14;
+
 public class Practiceoncontrolstatement {
     public static void main(String[] args) {
         int a=10;
@@ -61,9 +63,12 @@ public class Practiceoncontrolstatement {
             }
             //switch
             int g = 3;
+            if(g<10){
             switch(3){
                 case 0:
+                int p=0;
                 System.out.println("monday");
+                System.out.println(p);
                 break;
                 case 1:
                 System.out.println("tuesday");
@@ -85,7 +90,9 @@ public class Practiceoncontrolstatement {
                 break;
                 default:
                 System.out.println("error");
-                break;
+                break;}
+            
+                
             }
             //switch
             String month="JANUARY";
@@ -149,7 +156,11 @@ public class Practiceoncontrolstatement {
         System.out.println("i is grater");
         else
         System.out.println("i is smaller");
-    
+
+        
+      
+          
+      
 
 
 
