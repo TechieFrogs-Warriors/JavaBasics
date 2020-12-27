@@ -37,7 +37,7 @@ public class Validation {
                 sc.next();
             }
             s = sc.nextLine();
-        } while (s != "");
+        } while (s.equals(""));
         System.out.println("Enter  String Is valid ");
         sc.close();
 
