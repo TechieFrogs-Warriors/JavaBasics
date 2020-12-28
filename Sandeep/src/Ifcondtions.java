@@ -1,12 +1,25 @@
-import javax.lang.model.util.ElementScanner14;
+import java.util.*;
 
 public class Ifcondtions {
     public static void main(String[] args) {
         System.out.println("----else if ladder--------");
-        int a = 50;
-        int b = 50;
-        int c = 50;
-        int d = 50;
+        Scanner obj = new Scanner(System.in);
+        int a;
+        System.out.println("Enter a:: ");
+        a = obj.nextInt();
+
+        int b;
+        System.out.println("Enter b:: ");
+        b = obj.nextInt();
+
+        int c;
+        System.out.println("Enter c:: ");
+        c = obj.nextInt();
+
+        int d;
+        System.out.println("Enter d:: ");
+        d = obj.nextInt();
+
         if (a > b && a > b && a > c) {
             System.out.println("a is greater than b,c,d");
 
@@ -21,6 +34,7 @@ public class Ifcondtions {
         } else {
             System.out.println("a,b,c,d are equal");
         }
+        obj.close();
     }
 
 }

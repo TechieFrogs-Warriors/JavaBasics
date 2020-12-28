@@ -7,6 +7,7 @@ public class LabledForExample {
             for(int j=1;j<=3;j++){
                 
                 if(i==2&&j==2){
+                    
                     break bb;
                 }
             
@@ -14,7 +15,7 @@ public class LabledForExample {
                 continue bb;
             }
         
-            System.out.println(i+ " "+j);
+            System.out.println(i+ " " +j);
             }  }
             cc:
             

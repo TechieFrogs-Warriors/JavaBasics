@@ -1,7 +1,12 @@
+import java.util.*;
+
 public class Switch {
     public static void main(String[] args) {
         System.out.println("----------Switch case condition-----------");
-        String ch = "abc party";
+        Scanner obj = new Scanner(System.in);
+        String ch;
+        System.out.println("Enter Yor party name to vote: ");
+        ch = obj.nextLine();
 
         switch (ch) {
             case "abc party":
@@ -23,6 +28,7 @@ public class Switch {
                 System.out.println("your vote is in valid");
                 break;
         }
+        obj.close();
     }
 
 }
