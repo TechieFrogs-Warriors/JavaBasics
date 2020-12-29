@@ -1,4 +1,5 @@
-public class WhileLoopBreak {
+public class WhileLoopBreak 
+{
     public static void main(String[] args)
     {
         String s="Answini";int a=1;
@@ -11,9 +12,7 @@ public class WhileLoopBreak {
                 break;
             }
             System.out.println(a);
-            a++;
-            
+            a++; 
         }
-    }
-    
+    }   
 }
