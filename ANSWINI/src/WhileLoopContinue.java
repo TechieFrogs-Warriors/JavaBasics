@@ -1,4 +1,5 @@
-public class WhileLoopContinue {
+public class WhileLoopContinue 
+{
     public static void main(String[] args)
     {
         String s="Answini";int a=1;
@@ -7,15 +8,11 @@ public class WhileLoopContinue {
         {
             if(a==4)//Doesn't print only when condition is true ,afterthat continues the iteration for the rest
             {
-                
-        
                 a++;
                 continue ABC;
             }
             System.out.println(a);
-            a++;
-            
+            a++; 
         }
-    }
-    
+    }  
 }
