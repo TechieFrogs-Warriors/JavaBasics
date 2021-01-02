@@ -6,6 +6,300 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PatternProgram12",
+            "request": "launch",
+            "mainClass": "PatternProgram12",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram11",
+            "request": "launch",
+            "mainClass": "PatternProgram11",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram10",
+            "request": "launch",
+            "mainClass": "PatternProgram10",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch patternProgram9",
+            "request": "launch",
+            "mainClass": "patternProgram9",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram8",
+            "request": "launch",
+            "mainClass": "PatternProgram8",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram32",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram32",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram31",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram31",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram30",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram30",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram29",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram29",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram28",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram28",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram7",
+            "request": "launch",
+            "mainClass": "PatternProgram7",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram6",
+            "request": "launch",
+            "mainClass": "PatternProgram6",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram27",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram27",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram26",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram26",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram25",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram25",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram23",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram23",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram22",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram22",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram21",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram21",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram20",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram20",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram19",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram19",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram18",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram18",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram17",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram17",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram16",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram16",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alphabetpatternprogram14",
+            "request": "launch",
+            "mainClass": "Alphabetpatternprogram14",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram13",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram13",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram12",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram12",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram11",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram11",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram10",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram10",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram9",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram9",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram8",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram8",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram7",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram7",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram6",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram6",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram5",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram5",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram4",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram4",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram3",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram3",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram1",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram1",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlphabetPatternProgram2",
+            "request": "launch",
+            "mainClass": "AlphabetPatternProgram2",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram5",
+            "request": "launch",
+            "mainClass": "PatternProgram5",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram4",
+            "request": "launch",
+            "mainClass": "PatternProgram4",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram3",
+            "request": "launch",
+            "mainClass": "PatternProgram3",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram2",
+            "request": "launch",
+            "mainClass": "PatternProgram2",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
+            "name": "Launch PatternProgram1",
+            "request": "launch",
+            "mainClass": "PatternProgram1",
+            "projectName": "JavaBasics_6bec09a4"
+        },
+        {
+            "type": "java",
             "name": "Launch SampleProgram33",
             "request": "launch",
             "mainClass": "SampleProgram33",

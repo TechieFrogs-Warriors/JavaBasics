@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class SampleProgram24 {
+public class PatternProgram12 {
     public static void main(String[] args) {
-        //Program to print pyramid using numbers
         Scanner scan=new Scanner(System.in);
         int Number;
         do{
@@ -30,6 +29,5 @@ public class SampleProgram24 {
             scan.close();
         }
     }
-}
     
-
+}
