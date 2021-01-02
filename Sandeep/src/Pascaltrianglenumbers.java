@@ -28,10 +28,10 @@ public class Pascaltrianglenumbers {
             for (int k = 0; k <= i; k++) {
                 System.out.print(number + " ");
 
-                // number = number * (i - k) / (k + 1);// formula
             }
             System.out.println();
 
         }
+        obj.close();
     }
 }
