@@ -1,13 +1,15 @@
 import java.util.*;
 
-public class Pascaltrianglenumbers {
+public class Alphabetpattern29 {
     public static void main(String[] args) {
-        System.out.println("----- Pascal triangle using numbers -----\n");
+
+        System.out.println("------ Pattern using alphabets -----");
         Scanner obj = new Scanner(System.in);
 
-        // validation for input
+        // validation of input
+
         int row;
-        System.out.println("------ Validation for  input ------\n");
+        System.out.println("------ Validation for  input ------");
         do {
             System.out.println("enter  number of rows : ");
             while (!obj.hasNextInt()) {
@@ -16,24 +18,23 @@ public class Pascaltrianglenumbers {
             }
             row = obj.nextInt();
         } while (row <= 0);
-        System.out.println("The rows to be printed are : " + row);
 
-        for (int i = 0; i < row; i++) {
-
-            for (int j = 1; j < row - i; j++) {// spaces
+        int c = 65;
+        for (int i = 0; i <= row; i++) {
+            for (int j = 0; j <= row - i; j++) {
+                System.out.print((char) (c + j));
+            }
+            for (int k = 0; k <= i * 2 - 1; k++) {
                 System.out.print(" ");
             }
-
-            int number = 1;
-            for (int k = 0; k <= i; k++) {
-                System.out.print(number + " ");
-
-                // number = number * (i - k) / (k + 1);// formula
-
+            for (int j = row - i; j >= 0; j--) {
+                if (j != row)
+                    System.out.print((char) (c + j));
             }
             System.out.println();
-
         }
+
         obj.close();
+
     }
 }

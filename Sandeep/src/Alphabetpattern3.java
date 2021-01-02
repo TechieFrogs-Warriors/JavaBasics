@@ -1,7 +1,8 @@
 import java.util.*;
 
-public class halfpyramidusingalphabets {
+public class Alphabetpattern3 {
     public static void main(String[] args) {
+
         System.out.println("------ hald=f pyrmid using alphabets -----");
         Scanner obj = new Scanner(System.in);
 
@@ -26,6 +27,15 @@ public class halfpyramidusingalphabets {
             }
             System.out.println();
         }
+
+        for (int x = row - 1; x >= 0; x--) {
+            int ch = 65;
+            for (int y = 0; y <= x; y++) {
+                System.out.print((char) (ch + y) + " ");
+            }
+            System.out.println();
+        }
+
         obj.close();
     }
 }

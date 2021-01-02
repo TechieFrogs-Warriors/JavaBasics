@@ -1,13 +1,15 @@
 import java.util.*;
 
-public class Pascaltrianglenumbers {
+public class Alphabetpattern20 {
     public static void main(String[] args) {
-        System.out.println("----- Pascal triangle using numbers -----\n");
+
+        System.out.println("------ Pattern using alphabets -----");
         Scanner obj = new Scanner(System.in);
 
-        // validation for input
+        // validation of input
+
         int row;
-        System.out.println("------ Validation for  input ------\n");
+        System.out.println("------ Validation for  input ------");
         do {
             System.out.println("enter  number of rows : ");
             while (!obj.hasNextInt()) {
@@ -16,24 +18,21 @@ public class Pascaltrianglenumbers {
             }
             row = obj.nextInt();
         } while (row <= 0);
-        System.out.println("The rows to be printed are : " + row);
 
-        for (int i = 0; i < row; i++) {
-
-            for (int j = 1; j < row - i; j++) {// spaces
+        for (int i = 0; i <= row; i++) {
+            int c = 65;
+            for (int j = row; j > i; j--) {
                 System.out.print(" ");
             }
-
-            int number = 1;
             for (int k = 0; k <= i; k++) {
-                System.out.print(number + " ");
-
-                // number = number * (i - k) / (k + 1);// formula
-
+                System.out.print((char) (c + k));
+            }
+            for (int l = i - 1; l >= 0; l--) {
+                System.out.print((char) (c + l));
             }
             System.out.println();
-
         }
+
         obj.close();
     }
 }

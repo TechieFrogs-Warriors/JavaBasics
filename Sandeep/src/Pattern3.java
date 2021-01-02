@@ -1,8 +1,9 @@
 import java.util.*;
 
-public class Pascaltrianglenumbers {
+public class Pattern3 {
     public static void main(String[] args) {
-        System.out.println("----- Pascal triangle using numbers -----\n");
+
+        System.out.println("----- Pyramid using star -----\n");
         Scanner obj = new Scanner(System.in);
 
         // validation for input
@@ -18,22 +19,28 @@ public class Pascaltrianglenumbers {
         } while (row <= 0);
         System.out.println("The rows to be printed are : " + row);
 
-        for (int i = 0; i < row; i++) {
-
-            for (int j = 1; j < row - i; j++) {// spaces
-                System.out.print(" ");
+        int i, j;
+        for (i = 1; i <= row; i++) {
+            for (j = 1; j <= row; j++) {
+                if (i == j) {
+                    System.out.print("*");
+                } else {
+                    System.out.print("0");
+                }
             }
 
-            int number = 1;
-            for (int k = 0; k <= i; k++) {
-                System.out.print(number + " ");
-
-                // number = number * (i - k) / (k + 1);// formula
-
+            for (j = row; j >= 1; j--) {
+                if (i == j || j == row) {
+                    System.out.print("*");
+                } else {
+                    System.out.print("0");
+                }
             }
+
             System.out.println();
 
         }
         obj.close();
+
     }
 }
