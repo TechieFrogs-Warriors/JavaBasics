@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class AlphaPattern9 
+public class AlphaPattern15 
 {
     public static void main(String[] args) 
     {
@@ -17,19 +17,20 @@ public class AlphaPattern9
     
     
          }while(n<0);
-           int alphabet=65;
-           for(int i=n;i>=0;i--)
+           char Ch='A';
+           for(int i=0;i<=n;i++)
            {
                for(int j=0;j<=i;j++)
                {
-                   System.out.print((char)(alphabet+j)+" ");
+                   System.out.print(" ");
                }
-              System.out.println();
-           }
-           D.close();
-       
-    
-        
-    }
-    
+               for(int k=0;k<=n-i;k++)
+               {
+                   System.out.print((char)(Ch+k)+" ");
+               }
+               System.out.println();
+
+            }
+            D.close();
+     }
 }

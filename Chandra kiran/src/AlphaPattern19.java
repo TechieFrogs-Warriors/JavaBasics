@@ -1,35 +1,39 @@
 import java.util.Scanner;
-public class PascalsTriangle 
+public class AlphaPattern19 
 {
     public static void main(String[] args) 
     {
-        Scanner D= new Scanner(System.in);
+        Scanner D=new Scanner(System.in);
         int n;
-        do
-        {
+        do{
             System.out.println("enter positive number");
             while(!D.hasNextInt())
             {
                 String input = D.next();
-
+   
                 System.out.printf("\"%s\" is not a valid number.Please enter a valid number \n",input);
             }
           n=D.nextInt();
         }while(n<0);
-
-        int i,j;
-          for(i=0;i<n;i++)
+        char Ch='A';
+        for(int i=n;i>=0;i--)
         {
-              int num=1;
-              System.out.printf("%" + (n-i) * 2 + "S","");
-             for(j=0;j<=i;j++)
-          {
-            System.out.printf("%4d",num);
-            num = num * (i-j) / (j+1);
-          }
-           System.out.println();
+            for(int j=0;j<=i;j++)
+            {
+                System.out.print(" ");
+            }
+            for(int k=i;k<=n;k++)
+            {
+                System.out.print((char)(Ch+k)+" ");
+
+            }
+            System.out.println();
         }
         D.close();
+   
+        
     }
-    
 }
+
+    
+    

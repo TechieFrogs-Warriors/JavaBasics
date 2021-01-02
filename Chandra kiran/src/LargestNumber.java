@@ -34,6 +34,7 @@ public class LargestNumber
         {
           System.out.println("c is greater than a and b");
         }
+        L.close();
         
     }
     
