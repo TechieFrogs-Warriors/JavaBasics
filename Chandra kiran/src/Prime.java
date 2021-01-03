@@ -36,6 +36,7 @@ public class Prime
         {
             System.out.println("n is a prime number");
         }
+        
         P.close();
     }
     

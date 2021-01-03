@@ -1,22 +1,12 @@
 import java.util.Scanner;
-public class ZeroStar 
+
+public class NumberPattern5 
 {
-    public static void main(String[] args)
+    public static void main(String[] args) 
     {
-        Scanner Z=new Scanner(System.in);
-        int n;
-         do{
-             System.out.println("enter positive number");
-             while(!Z.hasNextInt())
-             {
-                 String input = Z.next();
-    
-                 System.out.printf("\"%s\" is not a valid number.Please enter a valid number \n",input);
-             }
-           n=Z.nextInt();
-        }while(n<0);
-        
-        
+        Scanner obj=new Scanner(System.in);
+        System.out.println("ENTER NUMBER OF ROWS YOU WANT");
+        int n=obj.nextInt();
         for(int i=1;i<=n;i++)
         {
             for(int j=1;j<=n;j++)
@@ -40,10 +30,8 @@ public class ZeroStar
                     System.out.print("0");
                 }
             }
-            
             System.out.println();
-        } 
-        Z.close(); 
-     }
-    
+        }  
+        obj.close(); 
+    }
 }
