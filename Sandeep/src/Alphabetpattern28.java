@@ -1,8 +1,9 @@
 import java.util.*;
 
-public class halfpyramidusingalphabets {
+public class Alphabetpattern28 {
     public static void main(String[] args) {
-        System.out.println("------ hald=f pyrmid using alphabets -----");
+
+        System.out.println("------ Pattern using alphabets -----");
         Scanner obj = new Scanner(System.in);
 
         // validation of input
@@ -17,15 +18,18 @@ public class halfpyramidusingalphabets {
             }
             row = obj.nextInt();
         } while (row <= 0);
-        System.out.println("The rows to be printed are : " + row);
 
-        int letter = 65;// ASCII value of a
         for (int i = 0; i <= row; i++) {
-            for (int j = 0; j <= i; j++) {
-                System.out.print((char) (letter + j) + " ");// converstion from ASCII value to the Letter
+            int c = 65;
+            for (int j = 0; j < row - i; j++) {
+                System.out.print((char) (c + j));
+            }
+            for (int k = row - i; k >= 0; k--) {
+                System.out.print((char) (c + k));
             }
             System.out.println();
         }
+
         obj.close();
     }
 }

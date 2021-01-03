@@ -1,13 +1,14 @@
 import java.util.*;
 
-public class Pascaltrianglenumbers {
+public class Alphabetpattern2 {
     public static void main(String[] args) {
-        System.out.println("----- Pascal triangle using numbers -----\n");
+        System.out.println("------ hald=f pyrmid using alphabets -----");
         Scanner obj = new Scanner(System.in);
 
-        // validation for input
+        // validation of input
+
         int row;
-        System.out.println("------ Validation for  input ------\n");
+        System.out.println("------ Validation for  input ------");
         do {
             System.out.println("enter  number of rows : ");
             while (!obj.hasNextInt()) {
@@ -18,22 +19,14 @@ public class Pascaltrianglenumbers {
         } while (row <= 0);
         System.out.println("The rows to be printed are : " + row);
 
-        for (int i = 0; i < row; i++) {
-
-            for (int j = 1; j < row - i; j++) {// spaces
-                System.out.print(" ");
-            }
-
-            int number = 1;
-            for (int k = 0; k <= i; k++) {
-                System.out.print(number + " ");
-
-                // number = number * (i - k) / (k + 1);// formula
-
+        int letter = 65;// ASCII value of a
+        for (int i = 0; i <= row - 1; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print((char) (letter + i) + " ");// converstion from ASCII value to the Letter
             }
             System.out.println();
-
         }
         obj.close();
     }
+
 }

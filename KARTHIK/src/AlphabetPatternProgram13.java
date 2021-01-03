@@ -1,35 +1,33 @@
 import java.util.Scanner;
 
-public class SampleProgram24 {
+public class AlphabetPatternProgram13 {
     public static void main(String[] args) {
-        //Program to print pyramid using numbers
         Scanner scan=new Scanner(System.in);
-        int Number;
+        int Number;//validation part
         do{
             System.out.println("Enter Integer Value:");
             while(!scan.hasNextInt()){
-                System.out.println("Please Enter Integer Values:");
+                System.out.println("Please Enter Integer Value:");
                 scan.next();
 
             }
             Number=scan.nextInt();
         }
         while(Number<=0);
-        int b,c,d,e;
-        for(b=1;b<=Number;b++){
-            for(c=Number;c>=b;c--){
+        System.out.println("Output Pattern");
+        int a=65;
+        int b,c,d;
+        for(b=0;b<=Number;b++){
+            for(c=0;c<=b;c++){
                 System.out.print(" ");
             }
-            for(d=1;d<=b;d++){
-                System.out.print(d);
-            }
-            for(e=b-1;e>=1;e--){
-                System.out.print(e);
+            for(d=0;d<=Number-b;d++){
+                System.out.print((char)(a+d)+" ");
             }
             System.out.println();
             scan.close();
         }
+        
     }
-}
     
-
+}
