@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Findarea",
+            "request": "launch",
+            "mainClass": "Findarea",
+            "projectName": "JavaBasics_f0697d00"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exampleclass3",
+            "request": "launch",
+            "mainClass": "Exampleclass3",
+            "projectName": "JavaBasics_f0697d00"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exampleclass2",
+            "request": "launch",
+            "mainClass": "Exampleclass2",
+            "projectName": "JavaBasics_f0697d00"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exampleclass1",
+            "request": "launch",
+            "mainClass": "Exampleclass1",
+            "projectName": "JavaBasics_f0697d00"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alphabetpattern36",
+            "request": "launch",
+            "mainClass": "Alphabetpattern36",
+            "projectName": "JavaBasics_f0697d00"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alphabetpattern35",
+            "request": "launch",
+            "mainClass": "Alphabetpattern35",
+            "projectName": "JavaBasics_f0697d00"
+        },
+        {
+            "type": "java",
+            "name": "Launch Alphabetpattern34",
+            "request": "launch",
+            "mainClass": "Alphabetpattern34",
+            "projectName": "JavaBasics_f0697d00"
+        },
+        {
+            "type": "java",
             "name": "Launch sample",
             "request": "launch",
             "mainClass": "sample",
