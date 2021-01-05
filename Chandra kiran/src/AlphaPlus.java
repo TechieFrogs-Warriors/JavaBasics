@@ -17,18 +17,22 @@ public class AlphaPlus
     
     
          }while(n<0);
-         int i,j,k=0;
-         char ch='a';
-         for(i=0;i<=n;i++)
+         
+        
+         
+        
+         for(int i=1;i<n;i++)
          {
-             for(j=0;j<=i;j++)
+             int ch=97;
+             String S="";
+             for(int j=1;j<=i;j++)
              {
-                 System.out.print(k);
-                 k=ch+j;
+                 S=S+(char) ch+" + ";
+                 ch++;
              }
-             System.out.println();
-         }
-          D.close();
+              System.out.println("(" + S.substring(0,S.length() - 3)+")");
+            }
+          D.close();  
         
     }
     
