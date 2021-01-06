@@ -17,14 +17,14 @@ class Multipication {
 }
 
 class Divide {
-    int a;
-    int b;
+    int a = 40;
+    int b = 10;
     int c = a / b;
 }
 
 class Percentage {
-    int a;
-    int b;
+    int a = 40;
+    int b = 3;
     int c = a % b;
 }
 
@@ -54,16 +54,16 @@ public class Arthematic {
 
         System.out.println("\n\n ## Divide ##\n");
         Divide obj3 = new Divide();
-        obj3.a = 40;
-        obj3.b = 10;
-        obj3.c = (obj3.a) / (obj3.b);
+        // obj3.a = 40;
+        // obj3.b = 10;
+        // obj3.c = (obj3.a) / (obj3.b);
         System.out.println(obj3.a + " / " + obj3.b + " = " + obj3.c);
 
         System.out.println("\n\n ## Percentage ##\n");
         Percentage obj4 = new Percentage();
-        obj4.a = 10;
-        obj4.b = 10;
-        obj4.c = (obj4.a) % (obj4.b);
+        // obj4.a = 10;
+        // obj4.b = 10;
+        // obj4.c = (obj4.a) % (obj4.b);
         System.out.println(obj4.a + " % " + obj4.b + " = " + obj4.c);
 
     }
