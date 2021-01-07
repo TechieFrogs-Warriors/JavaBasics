@@ -9,7 +9,6 @@ public class ProgramOnClass {
         Pattern patternObj=new Pattern();
         ProgramOnClass3 Obj=new ProgramOnClass3
         ();
-        System.out.println("**** Ouput ****");
         if(patternObj.i % 2 == 0){
             System.out.println(patternObj.i);
         }

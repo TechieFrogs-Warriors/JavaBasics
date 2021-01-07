@@ -24,7 +24,7 @@ public class HasNext {
   System.out.println( "sum :" +sum);
 }
       
-      if(n.hasNextFloat())
+      if(n.hasNextInt())
       {
         mul*=m;
         System.out.println("mul:" +mul);
