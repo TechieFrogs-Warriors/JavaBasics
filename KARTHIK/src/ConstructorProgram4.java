@@ -1,7 +1,17 @@
 import java.util.Scanner;
 
-public class AlphabetPatternProgram1 {
+public class ConstructorProgram4 {
     public static void main(String[] args) {
+        Add obj1=new Add();
+        obj1.show();
+
+    }
+    
+}
+class Add{
+    int z,x;
+    Add(int a){
+        x=a;
         Scanner scan=new Scanner(System.in);
        int Number;//validation part
         do{
@@ -13,20 +23,23 @@ public class AlphabetPatternProgram1 {
             }
             Number=scan.nextInt();
         }
-        while(Number<=0); 
+        while(Number<=0);
+        z=Number;
+        scan.close();
+    }
+    void show(){
         System.out.println("Output Pattern");
-        int a=65;
+    }
+     Add(){
+         this(65);
         int b,c;
-        for(b=0;b<=Number;b++){
+        for(b=0;b<=z;b++){
             for(c=0;c<=b;c++){
-                System.out.print((char)(a+c)+" ");
+                System.out.print((char)(x+c)+" ");
             }
             System.out.println();
-            scan.close();
         }
 
-
-
     }
-    
 }
+   
