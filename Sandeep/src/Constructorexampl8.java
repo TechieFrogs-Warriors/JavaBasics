@@ -1,7 +1,6 @@
 class StudentA {
     String name;
     int age;
-    int i, j, k, d;
 
     StudentA(String str, int a) {
         name = str;
