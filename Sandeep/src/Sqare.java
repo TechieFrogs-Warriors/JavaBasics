@@ -1,7 +1,7 @@
 public class Sqare {
-    int length;
-    int height;
-    int area;
+    private int length;
+    private int height;
+    private int area;
 
     void getData() {
         length = 4;
