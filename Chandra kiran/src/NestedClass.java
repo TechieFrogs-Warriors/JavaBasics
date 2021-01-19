@@ -29,7 +29,7 @@ class Nest
    class NestIn
     {
         
-         void print()
+       void print()
         {
             System.out.println("print the inner class");
         }
