@@ -4,7 +4,7 @@ public class ConstructorSample
     {
         System.out.println("print this constructor");
     }
-    ConstructorSample(int a,int b)
+      ConstructorSample(int a,int b)
     {
         
         
