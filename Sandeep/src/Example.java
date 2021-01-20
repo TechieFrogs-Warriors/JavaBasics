@@ -1,5 +1,7 @@
 public class Example {
     public static void main(String[] args) {
+        second obj = new second();
+        obj.add1();
         int a = 50;
         int b = 60;
         int c = 10;
