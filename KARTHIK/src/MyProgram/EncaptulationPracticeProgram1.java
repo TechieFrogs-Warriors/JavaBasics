@@ -11,11 +11,8 @@ public class EncaptulationPracticeProgram1 extends NEW1 {
         System.out.println("RollNumber Of The Student: "+obj.getRollNumber());
         System.out.println("Marks Of The Student: "+obj.getMarks());
         System.out.println("Rank Of The Student: "+obj.getRank());
-        EncaptulationPracticeProgram1 obj=new EncaptulationPracticeProgram1();
-        obj.getRollNumber();
-
-        
-
+        EncaptulationPracticeProgram1 obj1=new EncaptulationPracticeProgram1();
+        obj1.getRollNumber();
     }
     
 }
