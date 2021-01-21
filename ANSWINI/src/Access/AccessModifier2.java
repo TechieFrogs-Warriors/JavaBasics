@@ -1,6 +1,7 @@
 package Access;
 import Access.Access_Specifiers;
-public class AccessModifier2 
+import InheritanceConcept.Inheritance_concept;
+public class AccessModifier2 extends Inheritance_concept
 {
     public static void main(String[] args) 
     {
@@ -12,10 +13,14 @@ public class AccessModifier2
         sData.mul(5, 5);
         New nda=new New();
         nda.n();
+        //inheritance concept checking from other package
+        AccessModifier2 ac=new AccessModifier2();
+        ac.div();
+        
     }
     
 }
-class New
+class New 
 {
     void n()
     {

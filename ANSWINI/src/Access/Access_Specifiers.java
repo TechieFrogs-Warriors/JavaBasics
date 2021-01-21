@@ -61,7 +61,7 @@ public class Access_Specifiers
 }
 final class NewData//this class cannot be inherited because its final
 {
-    final int a=2,b=4;//a and b values cannot be changed furtherbecause they are final.
+    final int a=2,b=4;//a and b values cannot be changed further because they are final.
     final int diff()//protected method with return type and arguments
     {
         //a=40;b=20;
