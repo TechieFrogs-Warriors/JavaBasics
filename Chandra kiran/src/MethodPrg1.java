@@ -1,6 +1,6 @@
 class PrintNumber
 {
-  public int printn(int a,int b,int x)
+  protected int printn(int a,int b,int x)
   {
         x=a+b;
       return x;
@@ -44,7 +44,7 @@ public class MethodPrg1
         long o=p*q;
         return o;
     }
-   public static short printn(int z)
+   private static short printn(int z)
    {
           Short y=30;
     
