@@ -3,7 +3,7 @@ public class Abstraction_Concept
 {
     public static void main(String[] args) 
     {
-       /* Abst a=new Abst();
+       Abst a=new Abst();
        System.out.println("height is:"+a.height); 
        System.out.println("name is: "+a.name);
        a.fee();
@@ -11,7 +11,7 @@ public class Abstraction_Concept
        a.learn();
        a.display("achyuth");
        a.setAge(14);
-       a.getAge(); */
+       a.getAge(); 
        //cant create instance of abstract class
        //Abs ab=new Abs();
        //creating reference of parent abstractclass pointing to child class object
