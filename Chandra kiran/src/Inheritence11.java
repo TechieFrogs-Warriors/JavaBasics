@@ -79,7 +79,7 @@ class Cylinder extends Circle1
     }
     public double getArea()
     {
-        System.err.println("Area of circle:"+super.getArea());
+        System.out.println("Area of circle:"+super.getArea());
     double surfacearea= (2*3.14*getRadius()*(getRadius()+getHeight()));
      return surfacearea;
     }
