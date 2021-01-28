@@ -3,7 +3,7 @@ public class Alphabet {
 
         System.out.println("------ Given input is alphabet or not ------");
 
-        char c = 'z';
+        char c = '1';
 
         if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z')) {
             System.out.println(c + " is an alphabet.");
