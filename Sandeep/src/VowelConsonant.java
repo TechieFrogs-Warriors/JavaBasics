@@ -1,6 +1,6 @@
 public class VowelConsonant {
     public static void main(String[] args) {
-        char ch = 'a';
+        char ch = 'i';
 
         switch (ch) {
             case 'a':
