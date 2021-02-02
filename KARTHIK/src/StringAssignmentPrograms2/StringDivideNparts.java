@@ -27,8 +27,5 @@ public class StringDivideNparts {
             System.out.println("String can not be splited into equal parts.");
         }
         scan.close();
-    }
-
-        
-    
+    }   
 }

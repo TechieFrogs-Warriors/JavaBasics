@@ -11,7 +11,7 @@ public class DuplicateCharecters {
         for(int i=0;i<=Str.length();i++){
             for(int j=i+1;j<Str.length();j++){
                 if(ch[i]==ch[j]){
-                    System.out.print(ch[j]+" ");
+                    System.out.print("Duplicate charecters: "+ch[j]+" ");
                     break;
                 }
             }

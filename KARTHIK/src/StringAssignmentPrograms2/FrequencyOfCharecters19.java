@@ -9,9 +9,10 @@ public class FrequencyOfCharecters19 {
         String str=Scan.nextLine();
         str.toLowerCase();
         char ch[]=str.toCharArray();
+
         int l=ch.length;
         int count;
-        for(int i=0;i<l-1;i++){
+        for(int i=0;i<l;i++){
             count=1;
             for(int j=i+1;j<l;j++){
                 if(ch[i]==ch[j]){

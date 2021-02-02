@@ -33,6 +33,5 @@ public class worsinText21 {
         }
         scan.close();
 
-    }
-    
+    }  
 }
