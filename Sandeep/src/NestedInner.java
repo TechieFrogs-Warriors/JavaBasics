@@ -33,6 +33,7 @@ public class NestedInner {
     public static void main(String[] args) {
 
         // instanting nested class object
+        //Outer2 outer1 = new Outer2();
         Outer2.Nested nested = new Outer2.Nested();
         nested.Large();
 
