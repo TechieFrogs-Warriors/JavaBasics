@@ -11,7 +11,7 @@ public class InterfaceExcerciseProgram8 implements Program8 {
             public void display() {
                 System.out.println("Excercise8");
             }
-        }
+        }//method returns a reference to  interface
         Exercise8 inner = new Exercise8();
         inner.display();
     }
