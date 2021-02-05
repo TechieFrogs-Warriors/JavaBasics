@@ -22,6 +22,7 @@ public class Excercises32 {
         }
         System.out.println("Data : " + obj);
 
+        sc.close();
     }
 
 }

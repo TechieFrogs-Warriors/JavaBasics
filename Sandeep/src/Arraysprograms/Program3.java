@@ -23,6 +23,7 @@ public class Program3 {
         obj.max(a);
         System.out.println("\n\n");
         obj.max(new int[] { 100, 200, 550, 22222, 005500 });
+        obj.max(new int[] { 100, 200, 550, 22222, 005500 });
 
     }
 
