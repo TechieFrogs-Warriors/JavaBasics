@@ -1,6 +1,10 @@
 package InheritanceConcept;
+import Abstraction_concept.*;
+import Interface_Concept.Program7.*;
+import AccessModifers.ProtectedSample;
+import AccessModifers.ProtectedSample.*;
 
-public class Interfaces 
+public class Interfaces  extends ProtectedSample
 {
     public static void main(String[] args) 
     {
@@ -8,9 +12,18 @@ public class Interfaces
         maths.add();
         maths.subtract();
         System.out.println(maths.mul());
+        //Interface concept program 7 part3
+        Interfaces i=new Interfaces();
+        System.out.println(i.getBaseInner().Talk());
+    }
+    //Interface concept program 7 part3
+    Prog7BaseInner getBaseInner() 
+    { 
+        return this.new Prog7BaseInner();
     }
     
 }
+
 //public or abstract can be used for mrthods in interfaces
 interface A
 {
