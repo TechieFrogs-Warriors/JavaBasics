@@ -33,9 +33,8 @@ public class MaximumAndMinimumcharecter {
                 maxChar = string[i];  
             }  
         }  
-          
+        System.out.println("Maximum occurring character: " + maxChar); 
         System.out.println("Minimum occurring character: " + minChar);  
-        System.out.println("Maximum occurring character: " + maxChar);
-        scan.close();  
+        scan. close();
     }
 }

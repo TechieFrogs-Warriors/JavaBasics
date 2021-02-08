@@ -38,7 +38,7 @@ public class PatternProgram2 {
                 System.out.print("0");
                 b--;
             }
-            System.out.println("");
+            System.out.println();
             scan.close();
         }
 
