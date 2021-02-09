@@ -11,7 +11,7 @@ public class Excercises33 {
         String s1 = sc.nextLine();
 
         // remove white spaces
-        System.out.println(s1.replaceAll("\\s", ""));
+        System.out.println(s1.replaceAll(" ", "-"));
 
         sc.close();
 

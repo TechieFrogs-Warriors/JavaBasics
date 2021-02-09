@@ -20,12 +20,15 @@ public class Alphabetpattern1 {
         } while (row <= 0);
         System.out.println("The rows to be printed are : " + row);
 
-        int letter = 65;// ASCII value of a
         for (int i = 0; i <= row; i++) {
+            int letter = 65;// ASCII value of a
             for (int j = 0; j <= i; j++) {
-                System.out.print((char) (letter + j) + " ");// converstion from ASCII value to the Letter
+
+                System.out.print((char) (letter) + " ");// converstion from ASCII value to the Letter
+                letter++;
             }
             System.out.println();
+
         }
         obj.close();
     }
