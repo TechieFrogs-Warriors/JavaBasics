@@ -10,7 +10,7 @@ public class Excercises33 {
             for (int j = 0; j < 3; j++) {
                 c[i][j] = 0;
                 for (int k = 0; k < 3; k++) {// this loop is used to muiltply evaey cloum and row
-                    c[i][j] += a[i][k] + b[k][j];
+                    c[i][j] += a[i][k] * b[k][j];
                 }
                 System.out.print(c[i][j] + " ");
             }
