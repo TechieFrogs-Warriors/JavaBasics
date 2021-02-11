@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Pattern5 {
+public class XPattern5 {
     public static void main(String[] args) {
 
         System.out.println("----- Pattern -----\n");

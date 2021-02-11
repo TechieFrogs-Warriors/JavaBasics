@@ -22,8 +22,10 @@ public class Alphabetpattern2 {
         int letter = 65;// ASCII value of a
         for (int i = 0; i <= row - 1; i++) {
             for (int j = 0; j <= i; j++) {
-                System.out.print((char) (letter + i) + " ");// converstion from ASCII value to the Letter
+                System.out.print((char) (letter) + " ");// converstion from ASCII value to the Letter
+
             }
+            letter++;
             System.out.println();
         }
         obj.close();

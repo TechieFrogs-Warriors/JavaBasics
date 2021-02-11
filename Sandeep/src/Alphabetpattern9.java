@@ -21,9 +21,9 @@ public class Alphabetpattern9 {
 
         for (int i = row; i >= 0; i--) {
             int c = 65;
-            for (int j = 0; j > row; j++) {// spaces
-                System.out.print(" ");
-            }
+            // for (int j = 0; j > row; j++) {// spaces
+            // System.out.print(" ");
+            // }
             for (int k = i; k >= 0; k--) {
                 System.out.print((char) (c + k) + " ");
             }

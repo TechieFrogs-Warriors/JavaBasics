@@ -17,7 +17,7 @@ public class AlphabetPatternProgram5 {
         System.out.println("Output Pattern");
         int a,b;
         int c=65;
-        for(a=Number;a>=0;a--){
+        for(a=Number;a>0;a--){
             for(b=a;b>=0;b--){
                 System.out.print((char)(c+b));
             }
