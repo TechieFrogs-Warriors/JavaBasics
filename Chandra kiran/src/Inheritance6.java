@@ -22,7 +22,7 @@ class Circle extends Shape
     }
 
 }
-class Square1 extends Rectangle2
+class Square2 extends Rectangle2
 {
     void square()
     {
@@ -33,7 +33,7 @@ public class Inheritance6
 {
     public static void main(String[] args) 
     {
-        Square1 Obj = new Square1();
+        Square2 Obj = new Square2();
         Obj.shape();
         Obj.rectangle();
         
