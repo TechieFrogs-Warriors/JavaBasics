@@ -5,7 +5,7 @@ public class MethodPrg8
         System.out.println(A.getName());
         System.out.println(B.getName());
         A obj= new B();
-        System.out.println(obj.getName());
+        obj.getName();
         
         
     }

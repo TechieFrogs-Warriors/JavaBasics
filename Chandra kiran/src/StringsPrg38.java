@@ -15,6 +15,7 @@ public class StringsPrg38
                 if(ch==ch1)
                 {
                     d++;
+                    
                 }
             }
             if(d>0)
