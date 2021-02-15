@@ -12,7 +12,7 @@ class Banana extends Apple
     int number_of_items=700;
     Banana()
     {
-
+          
     }
    void show()
    {

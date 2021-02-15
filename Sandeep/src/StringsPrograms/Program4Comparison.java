@@ -10,6 +10,7 @@ public class Program4Comparison {
         String s6 = new String("SANdeeP");
         String s7 = "Sand";
         String s8 = "eep";
+        //String a=s7.append("adsc");
         String s9 = "Sai";
         String s10 = "Sandeep";
         String s11 = new String("Sandeep");

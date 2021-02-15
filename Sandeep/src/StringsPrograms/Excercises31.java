@@ -9,7 +9,7 @@ public class Excercises31 {
 
         String s1 = sc.nextLine();
 
-        System.out.println(s1.replace(" ", "/"));
+        System.out.println(s1.replace(" ", ""));
 
         sc.close();
 

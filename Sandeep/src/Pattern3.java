@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Pattern3 {
-    public static void main(String[] args) {
+    public static void main(String[] args) {    
 
         System.out.println("----- Pyramid using star -----\n");
         Scanner obj = new Scanner(System.in);

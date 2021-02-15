@@ -27,7 +27,7 @@ public class NumSmallAlpha
              }
              char ch='`';
           
-             for(j=i;j>=n;j++)
+             for(j=i;j<=n;j++)
              {
                  System.out.print("");
              }

@@ -22,15 +22,18 @@ public class Alphabetpattern4 {
         for (int x = row; x >= 0; x--) {
             int ch = 65;
             for (int y = 0; y <= x; y++) {
-                System.out.print((char) (ch + y) + " ");
+                System.out.print((char) (ch) + " ");
+                ch++;
             }
             System.out.println();
         }
 
-        int letter = 65;// ASCII value of a
+        
         for (int i = 0; i <= row; i++) {
+            int letter = 65;// ASCII value of a
             for (int j = 0; j <= i; j++) {
-                System.out.print((char) (letter + j) + " ");// converstion from ASCII value to the Letter
+                System.out.print((char) (letter) + " ");// converstion from ASCII value to the Letter
+                letter++;
             }
             System.out.println();
         }

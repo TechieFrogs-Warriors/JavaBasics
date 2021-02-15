@@ -2,36 +2,47 @@ public class StringsPrg26
 {
     public static void main(String[] args) 
     {
-        String S="race";
-        String S1="care";
+        String S="raced";
+        String S1="caret";
         int n=0;
-        if(S.length()==S1.length())
+        if(S.length()!=S1.length())
         {
-            for(int i=0;i<S.length();i++)
+           System.out.println("Two are not anagram ");     
+        }
+        else
+        {
+             for(char i='a';i<='z';i++)
             {
-                char ch = S.charAt(i);
-                for(int j=0;j<S1.length();j++)
+               for(int j=0;j<S.length();j++)
                 {
-                    char ch1 = S1.charAt(j);
-                    if(ch==ch1)
+                    char ch = S.charAt(j);
+                    char ch1=S1.charAt(j);
+                    if(ch==i)
                     {
                         n++;
                         
                     }
+                    if(ch1==i)
+                    {
+                        n--;
+                    }
                 }
+            
+        
+                     if(n!=0)
+                     {
+                         System.out.println("Two words not are anagrams");
+                     }
+                     else
+                     {
+                        System.out.println("Two words are anagrams");
+                     }
             }
-            if(n==S.length())
-            {
-                System.out.println("Two words are anagrams");
-            }
-            else
-            {
-                System.out.println("Two words not anagrams");
-            }
-
-        }
+        
+         }
+     }
     
         
-    }
+ }
     
-}
+
