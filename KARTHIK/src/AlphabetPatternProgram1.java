@@ -19,7 +19,7 @@ public class AlphabetPatternProgram1 {
         int b,c;
         for(b=0;b<=Number;b++){
             for(c=0;c<=b;c++){
-                System.out.print((char)(a+c)+" ");
+               System.out.print((char)(a+c)+" ");
             }
             System.out.println();
             scan.close();

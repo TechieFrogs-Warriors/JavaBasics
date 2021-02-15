@@ -7,7 +7,7 @@ public class SampleProgram5 {
         char word;
         do{
             System.out.println("Eneter Single Charecter");
-            while(!scan.hasNext("[A-Z&a-z]*")){
+            while(!scan.hasNext("[A-Z&a-z]")){
                 System.out.println("Eneter Character Only");
                 scan.next();
              }
