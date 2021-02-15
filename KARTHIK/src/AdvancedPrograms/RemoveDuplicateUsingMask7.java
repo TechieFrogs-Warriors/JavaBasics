@@ -11,7 +11,7 @@ public class RemoveDuplicateUsingMask7 {
         char a[] = new char[str1.length()];
         char[] mask = new char[256];
        
-        for (int i = 0; i < str2.length(); i++){
+        for (int i = 0; i < a.length; i++){
             mask[str2.charAt(i)]++;
         }
         System.out.println("After Removing Duplicate Charecter string is: ");

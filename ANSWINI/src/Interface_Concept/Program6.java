@@ -1,72 +1,89 @@
 package Interface_Concept;
-
-public class Program6 
-{
-    public static void main(String[] args) 
-    {
-        Women m=new Women();
-        m.display("answini");
-        m.disp("java");
-        m.add(2);
-        m.subtract(4);
-        m.experience(5);
-        m.salary(25000);
-        m.newMeth("manager");  
-    } 
-}
+//creating interfaces
 interface One_One
 {
-    void display(String name);
-    void disp(String course);
+    void display();
+    void disp();
 }
 interface Two_Two
 {
-    int add(int a);
-    int subtract(int b);
+    void add();
+    void subtract();
 }
 interface Three_Three
 {
-    void experience(int years);
-    void salary(int sal);
+    void experience();
+    void salary();
 }
 //new interface extending three interfaces
 interface Mix extends One_One,Two_Two,Three_Three
 {
-    void newMeth(String post);
+    void newMeth();
     
 }
-//concrete class is women.
-class Women implements Mix
+//concrete class have all its methods
+class Doctor 
 {
-    public void display(String name)
+	private int i = 0;
+	public void doc() {}
+}
+//class extending  aconcrete class and implementing an interface
+class Women  extends Doctor implements Mix
+{
+    public void display()
     {
-        System.out.println("Name is: "+name);
+        System.out.println("Name is:aswini ");
     }
-    public void disp(String course)
+    public void disp()
     {
-        System.out.println("course iam learning is: "+course);
+        System.out.println("course iam learning is: java ");
     }
-    public int add(int a)
+    public void add()
     {
-        System.out.println("this is second interface addvalue: "+a);
-        return a;
+        System.out.println("this is second interface addvalue: sum ");
     }
-    public int subtract(int b)
+    public void subtract()
     {
-        System.out.println("this is second interface subtractvalue: "+b);
-        return b;
+        System.out.println("this is second interface subtractvalue: difference");
     }
-    public void experience(int years)
+    public void experience()
     {
-        System.out.println("my experience : "+years);
+        System.out.println("my experience : 4years ");
     }
-    public void salary(int sal)
+    public void salary()
     {
-        System.out.println("my salary is: "+sal);
+        System.out.println("my salary is: 50000");
     }
-    public void newMeth(String post)
+    public void newMeth()
     {
-        System.out.println("my post is: "+post);
+        System.out.println("my post is: manager");
     }
 }
-
+//driver class with main method
+public class Program6 
+{
+    public static void m1(One_One name)
+    { 
+        name.display();; 
+    }
+	public static void m2(Two_Two exam) 
+    { 
+        exam.add(); 
+    }
+	public static void m3(Three_Three details) 
+    { 
+        details.salary(); 
+    } 
+	public static void m4(Mix workup) 
+    { 
+        workup.newMeth(); 
+    }
+    public static void main(String[] args) 
+    {
+		Women obj = new Women();
+		m1(obj);
+		m2(obj);
+		m3(obj);
+		m4(obj);
+	}
+}

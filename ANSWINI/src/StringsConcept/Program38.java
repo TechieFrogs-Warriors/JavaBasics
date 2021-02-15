@@ -17,7 +17,9 @@ public class Program38
             {
                 if (inp[i] == inp[j]) 
                 {
+                    if(inp[j]!='0')
                     System.out.print(inp[j]+" ");
+                    inp[j]='0';
                     break;
                 }
             }

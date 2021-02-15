@@ -13,9 +13,10 @@ public class Sort2DArray4 {
         int a[][]=new int[Rows][Col];
         for(int i=0;i<Rows;i++){
             for(int j=0;j<Col;j++){
-                System.out.println("Enter Value: ");
+                System.out.print("Enter Value: ");
                 a[i][j]=scan.nextInt();
             }
+            System.out.println();
         }
         for(int i=0;i<Rows;i++){
             for(int j=0;j<Col;j++){
