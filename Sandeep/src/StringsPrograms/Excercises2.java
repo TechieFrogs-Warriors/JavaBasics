@@ -5,9 +5,19 @@ import java.util.*;
 public class Excercises2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the string");
+        String s2;
+        // System.out.println("Enter the string");
+        do {
+            System.out.println("Enetr String: ");
+            while (!sc.hasNext("[A-Za-z]*")) {
+                System.out.println("This is not a string please enter String: ");
+                sc.next();
+            }
+            s2 = sc.nextLine();
+        } while (s2.equals(""));
+        System.out.println("Enter  String Is valid ");
 
-        String s2 = sc.nextLine();
+        // String s2 = sc.nextLine();
         String s1 = s2.toLowerCase();
         String[] str = s1.split(" ");
 

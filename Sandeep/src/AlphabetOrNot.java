@@ -1,4 +1,4 @@
-public class Alphabet {
+public class AlphabetOrNot {
     public static void main(String[] args) {
 
         System.out.println("------ Given input is alphabet or not ------");

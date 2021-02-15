@@ -1,13 +1,19 @@
 package Abstractclass;
 
 abstract class Bank {
+    
     public abstract void getBalance();
+
+    public void getBalance(int a) {
+
+    }
 }
 
 class BankA extends Bank {
     public void getBalance() {
         System.out.println("Balance : $100");
     }
+
 }
 
 class BankB extends Bank {
@@ -21,6 +27,7 @@ class BankC extends Bank {
         System.out.println("Balance : $200");
     }
 }
+
 
 public class Excercises2 {
     public static void main(String[] args) {

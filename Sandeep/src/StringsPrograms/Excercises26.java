@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Excercises26 {
     public static void main(String[] args) {
-        String s1 = "Carer";
-        String s2 = "Rcaek";
+        String s1 = "Caer";
+        String s2 = "Race";
 
         s1 = s1.toLowerCase();// coverting to lowercase
         s2 = s2.toLowerCase();

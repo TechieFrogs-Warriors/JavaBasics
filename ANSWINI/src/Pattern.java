@@ -17,7 +17,7 @@ public class Pattern
             }
             for(int j=1;j<=i;j++)
             {
-                System.out.print(j);
+                System.out.print((char)(j+64));
             }
             System.out.println();
             obj.close();

@@ -25,7 +25,8 @@ public class Alphabetpattern6 {
                 System.out.print(" ");
             }
             for (int k = 0; k <= i; k++) {
-                System.out.print((char) (c + k) + " ");
+                System.out.print((char) (c) + " ");
+                c++;
             }
             System.out.println();
         }
