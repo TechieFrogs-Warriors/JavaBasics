@@ -39,7 +39,8 @@ public class Program15_16
             }
         }
         // convert the char array to the string
-        s = String.valueOf(mystr);
+        //s = String.valueOf(mystr);
+        s=mystr.toString();
         System.out.println("First letter of every word in the string is capitalized: " + s);
 
 

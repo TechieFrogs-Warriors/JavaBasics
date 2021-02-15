@@ -24,7 +24,7 @@ public class Program39
                     words[j] = "0";    
                 }    
             }    
-            if(count > 1 && words[i] != "0")    
+            if(count > 1 && words[i] != "0")   
             System.out.println(words[i]);
             sc.close();    
         }    
