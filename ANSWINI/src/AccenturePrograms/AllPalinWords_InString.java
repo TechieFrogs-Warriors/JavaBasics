@@ -14,14 +14,14 @@ public class AllPalinWords_InString
         do
         {
             System.out.println("Enter your String");
-            while(!sc.hasNext("[A-Za-z]*"))
+            while(!sc.hasNext("^[a-zA-Z]*"))
             {
                 System.out.println("Please enter valid string with only alphabets");
                 sc.next();
             }
             s=sc.nextLine();
         }while(s.equals(""));
-        System.out.println("It is a valid string"+s);
+        System.out.println("It is a valid string: "+s);
 
        s=s.toLowerCase();//converting total string to lowercase
         int count=0;//to count palinndrome words
