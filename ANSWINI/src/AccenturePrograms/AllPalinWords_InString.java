@@ -20,7 +20,7 @@ public class AllPalinWords_InString
                 sc.next();
             }
             s=sc.nextLine();
-        }while(s!="");
+        }while(s.equals(""));
         System.out.println("It is a valid string"+s);
 
        s=s.toLowerCase();//converting total string to lowercase
@@ -45,7 +45,7 @@ public class AllPalinWords_InString
     public static boolean palindrome(String w)
     {
         String rev="";
-        for(int i=w.length();i>=0;i++)
+        for(int i=w.length()-1;i>=0;i--)
         {
             rev=rev+w.charAt(i);
         }
