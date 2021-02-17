@@ -1,5 +1,6 @@
 package StringAssignmentPrograms2;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class FrequencyOfCharecters19 {
@@ -9,8 +10,9 @@ public class FrequencyOfCharecters19 {
         String str=Scan.nextLine();
         str.toLowerCase();
         char ch[]=str.toCharArray();
+        Arrays.sort(ch);
 
-        int l=ch.length;
+        int l=str.length();
         int count;
         for(int i=0;i<l;i++){
             count=1;
