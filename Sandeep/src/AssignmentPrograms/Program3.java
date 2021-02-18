@@ -26,13 +26,13 @@ public class Program3 {
         // converting given string to lowe cases
         str = str.toLowerCase();
         // Converts given string into character array
-        char string[] = str.toCharArray();
+        char arr[] = str.toCharArray();
 
         // Count each word in given string and store in array freq
-        for (i = 0; i < string.length; i++) {
+        for (i = 0; i < arr.length; i++) {
             freq[i] = 1;
-            for (j = i + 1; j < string.length; j++) {
-                if (string[i] == string[j] && string[i] != ' ' && string[i] != '0') {
+            for (j = i + 1; j < arr.length; j++) {
+                if (arr[i] == arr[j] && arr[i] != ' ' && arr[i] != '0') {
                     freq[i]++;
 
                 }
@@ -47,13 +47,13 @@ public class Program3 {
             // and corresponding character in minChar
             if (min > freq[i]) {
                 min = freq[i];
-                minChar = string[i];
+                minChar = arr[i];
             }
             // If max is less than frequency of a character then, store frequency in max and
             // corresponding character in maxChar
             if (max < freq[i]) {
                 max = freq[i];
-                maxChar = string[i];
+                maxChar = arr[i];
             }
         }
 
