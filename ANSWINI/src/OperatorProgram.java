@@ -1,6 +1,8 @@
-public class OperatorProgram {
+public class OperatorProgram 
+{
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         System.out.println("********ARITHMATIC OPERATION OUTPUT********");
         //ARITHMATIC OPERATIONS
         int a=500;int b=10;int c;
@@ -65,7 +67,5 @@ public class OperatorProgram {
         int x=80;int y=50;int sum;
         sum=((x+y)<100)?x:y;
         System.out.println(sum);
-       
-   }
-         
+    }       
 }
