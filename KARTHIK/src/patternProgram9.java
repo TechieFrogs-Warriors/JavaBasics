@@ -13,7 +13,7 @@ public class patternProgram9 {
             Number=scan.nextInt();
         }
         while(Number<=0);
-        String S="ISTSk";
+        String S="ISTS";
         for(int i=1;i<=Number;i++)
         {
             System.out.println(S.substring(0,i));

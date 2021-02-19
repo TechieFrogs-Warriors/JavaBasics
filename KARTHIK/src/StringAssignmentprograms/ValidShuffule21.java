@@ -17,7 +17,7 @@ public class ValidShuffule21 {
     static boolean shuffle(String str1,String str2,String result){
       if(str1.length() + str2.length() != result.length()){
           return false;
-        }
+      }
       int i=0,j=0,k=0;
       while(k!=result.length()){
           if(i<str1.length()&&str1.charAt(i)==result.charAt(k)){
@@ -35,6 +35,6 @@ public class ValidShuffule21 {
               return false;
           }
           return true;
-        }
+      }
     
 }

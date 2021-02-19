@@ -46,6 +46,21 @@ public class IO_Validation
             s = obj.nextLine();
         } while (s != "");
         System.out.println("Entered  String Is valid ");
+
+
+        System.out.println("------------ validation for characters ------------");
+
+        char ch;
+        do {
+            System.out.println("Enter character: ");
+            while (!obj.hasNext("[A-Za-z]")) 
+            {
+                System.out.println("This is not a character please enter character: ");
+                obj.next();
+            }
+            ch = obj.next().charAt(0);
+        } while (ch <= 0);
+        System.out.println("Entered  character Is valid ");
         obj.close();
 
 
