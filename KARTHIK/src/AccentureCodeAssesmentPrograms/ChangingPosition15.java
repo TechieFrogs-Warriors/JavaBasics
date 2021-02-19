@@ -8,27 +8,29 @@ public class ChangingPosition15 {
         Scanner scan2=new Scanner(System.in);
 
         //validation part
-        int a,b;
+        String a,b;
         do{
             System.out.println("Enter values of a and b: ");
-            while(!scan1.hasNextInt() | !scan2.hasNextInt()){
-                System.out.println("Enter Integers only: ");
+            while(!scan1.hasNext("[A-Za-z1-9]*") | !scan2.hasNext("[A-Za-z1-9]*")){
+                System.out.println("Enter Strings only: ");
                 scan1.next();
                 scan2.next();
             }
-            a=scan1.nextInt();
-            b=scan2.nextInt();
+            a=scan1.next();
+            b=scan2.next();
         }
-        while(a<=0&&b<=0);
+        while(a.equals("")&&b.equals(""));
         //a value is assgn to x
-        int x=a;
+        String x=a;
         //assigning b value to x
-        x=a+b-x;
+        x=b.concat(a);
+        x=x.substring(0,b.length());
         System.out.println("After Value of x:"+x);
 
         x=b;
         //assigning a value to x
-        x=a+b-x;
+        x=a.concat(b);
+        x=x.substring(0, a.length());
         System.out.println("After Value of x:"+x);
         scan1.close();
         scan2.close();
