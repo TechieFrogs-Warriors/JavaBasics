@@ -7,7 +7,7 @@ public class Program19 {
         int sumOdd = 0;// intilizing the summOdd to 0 to add the odd numbers
         for (int i = range1; i <= range2; i++) {
             if (i % 2 != 0) {// if odd numbet it goes to the if condtion and add the numbers
-                sumOdd += i;
+                sumOdd += i;// adds the odd numbers and result is stored in sumOdd
             }
         }
         System.out.println("Sum of Odd numbers from" + range1 + " to " + range2 + "is :: " + sumOdd);
@@ -42,6 +42,8 @@ public class Program19 {
 
         Program19 obj = new Program19();// creating object
         obj.sumOdd(range1, range2);// calling method using object
+
+        sc.close();
 
     }
 

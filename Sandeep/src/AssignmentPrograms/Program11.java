@@ -16,17 +16,17 @@ public class Program11 {
         }
         System.out.println("Sum of factors of " + number + " is :: " + sum);
         // now again performing the adding of factors for the output
-        int num = sum;
+        number = sum;// asigninh the sum to num
         int sum1 = 0;
-        for (int i = 1; i <= num; i++) {
-            if (num % i == 0) {
-                sum1 += i;
+        for (int i = 1; i <= number; i++) {// loop iterating till the given number
+            if (number % i == 0) {// if reminder is zero condtion excutes
+                sum1 += i;// adding of factors
             }
         }
-        System.out.println("Sum of factor of " + num + " is :: " + sum1);
-        if (sum == sum1) {
+        System.out.println("Sum of factor of " + number + " is :: " + sum1);
+        if (sum == sum1) {// if the both the sum of factors are equal then retrns 1
             return 1;
-        } else {
+        } else {// if the both the sum of factors are not equal then returns 0
             return 0;
         }
     }
@@ -46,8 +46,9 @@ public class Program11 {
         System.out.println("its a Number: " + number);
 
         Program11 obj = new Program11();
-        // obj.sum(number);
+
         System.out.println(obj.sum(number));
+        sc.close();
 
     }
 }

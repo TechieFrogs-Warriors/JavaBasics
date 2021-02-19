@@ -23,7 +23,7 @@ public class Program3 {
         minChar = maxChar = str.charAt(0);
         int i, j, min, max;
 
-        // converting given string to lowe cases
+        // converting given string to lower cases
         str = str.toLowerCase();
         // Converts given string into character array
         char arr[] = str.toCharArray();

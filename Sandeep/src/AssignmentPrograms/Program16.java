@@ -18,6 +18,7 @@ public class Program16 {
         System.out.println("its a Number: " + len);
         // input for array
         int arr[] = new int[len];
+        // intilizing the array elements
         System.out.println("Enter Elements in array ");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
@@ -35,6 +36,7 @@ public class Program16 {
             }
         }
         System.out.println("Sum of odd numbers : " + sumodd + "\n\n Sum of Even numbers : " + sumeven);
+        sc.close();
 
     }
 

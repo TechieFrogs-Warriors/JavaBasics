@@ -9,13 +9,15 @@ public class Program4 {
 
         int sum = 0;// intilizing the sum to 0 to caluclatethe difference
 
-        // absolute difference of the 1st array values in for loop 1st elemnt is calculated
+        // absolute difference of the 1st array values in for loop 1st elemnt is
+        // calculated
         sum += Math.abs(arr[0] - arr[1]);
 
         // abosolute difference od last values in loop last element is not calculated
         sum += Math.abs(arr[len - 1] - arr[len - 2]);
 
-        // finding the absolute difference for the rest of the values in the array excpet last and first
+        // finding the absolute difference for the rest of the values in the array
+        // excpet last and first
         for (int i = 1; i < len - 1; i++) {
             // calucate the min value of the difference
             sum += Math.min(Math.abs(arr[i] - arr[i - 1]), Math.abs(arr[i] - arr[i + 1]));
@@ -50,6 +52,7 @@ public class Program4 {
 
         // calling method absolute difference
         System.out.println("Difference is :: " + obj.absoluteDifference(arr, len));
+        sc.close();
     }
 
 }

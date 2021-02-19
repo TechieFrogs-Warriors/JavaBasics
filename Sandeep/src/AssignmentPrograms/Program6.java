@@ -15,11 +15,11 @@ public class Program6 {
         int numberofdays = 0;
         int friday = Calendar.FRIDAY;
 
-        while (start.before(end)) {// lopp iterates till the given end date
+        while (start.before(end)) {// lopp iterates from start date to end date
             if (start.get(Calendar.DAY_OF_WEEK) == friday) {// cheks for the friday
-                numberofdays++;
-                start.add(Calendar.DATE, 7);
-            } else {
+                numberofdays++;// counts thr n0 of days
+                start.add(Calendar.DATE, 7);// afeter every count the date is changes to next 8th day i.e friday
+            } else {// if not friday this condtion is excuted
                 start.add(Calendar.DATE, 5);
             }
         }

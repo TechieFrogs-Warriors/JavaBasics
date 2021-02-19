@@ -39,11 +39,12 @@ public class Program22 {
         for (int i = 0; i < n; i++) {
             arr[i] = (arr1[i] * 12) + arr2[i];
         }
-        // sort the result array
+        // sort the result array by using the Arrays.sort()method
         Arrays.sort(arr);
 
         // getting the max inches value from the result
         System.out.println("Max value is :: " + arr[n - 1]);
+        sc.close();
 
     }
 

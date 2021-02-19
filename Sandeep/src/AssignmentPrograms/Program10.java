@@ -10,7 +10,7 @@ public class Program10 {
                 for (int k = 0; k < m[i].length - j - 1; k++) {
                     if (m[i][k] > m[i][k + 1])// it checks every number and swap if less
                     {
-                        // swapping
+                        // swapping the  numbers
                         int temp = m[i][k];
                         m[i][k] = m[i][k + 1];
                         m[i][k + 1] = temp;

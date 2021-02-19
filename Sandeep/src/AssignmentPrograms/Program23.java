@@ -3,7 +3,7 @@ package AssignmentPrograms;
 import java.util.*;
 
 public class Program23 {
-    // method to find the nuber of cards used in pyramid
+    // method to find the number of cards used in pyramid
     public int CardsPyramid(int level) {
         return level * (3 * level + 1) / 2;// formula for finding the number of cards used to build pyrmid
 
@@ -12,7 +12,7 @@ public class Program23 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // validation for input user
+        // validation for user input
         int level;
         do {
             System.out.println("enter  Postive Number: ");
@@ -26,6 +26,7 @@ public class Program23 {
 
         Program23 obj = new Program23();// creating a object and calls method
         System.out.println("the number of cards used is :: " + obj.CardsPyramid(level));
+        sc.close();
 
     }
 

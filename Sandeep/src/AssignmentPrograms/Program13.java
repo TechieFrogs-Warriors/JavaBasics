@@ -23,6 +23,7 @@ public class Program13 {
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
         int number;
+        // input validation
         do {
             System.out.println("enter  Postive Number: ");
             while (!obj.hasNextInt()) {
@@ -32,6 +33,7 @@ public class Program13 {
             number = obj.nextInt();
         } while (number <= 0);
         System.out.println("its a Number: " + number);
+        // creating iobject to call the method
 
         Program13 obj1 = new Program13();
         obj1.collatz(number);

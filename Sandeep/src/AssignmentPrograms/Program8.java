@@ -14,7 +14,7 @@ public class Program8 {
         // sorting array using Arrays.sort()
         Arrays.sort(arr);
 
-        // Logic for sorting 
+        // Logic for sorting
         newArr[row][0] = arr[0];// placing first element of sorted array into the new array as first value
 
         // To enter remaining elements into the array (newArr)

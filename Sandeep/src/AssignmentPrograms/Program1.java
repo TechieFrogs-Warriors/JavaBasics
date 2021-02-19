@@ -46,6 +46,7 @@ public class Program1 {
             }
         }
         System.out.println("Count od Plindrome words in a Sentence is : " + count);
+        sc.close();
 
     }
 
