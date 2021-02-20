@@ -34,13 +34,13 @@ public class NonZeroDigitFactorial9 {
             if(value==0){
                 int rem1=rem/10;
                 int value1=rem1%10;
-                System.out.println("Non Zero Digit is: "+value1);
+                System.out.println("Non Zero Digit is: "+Math.abs(value1));
             }
             else
-            System.out.println("Non zero Digit is: "+value);
+            System.out.println("Non zero Digit is: "+Math.abs(value));
         }
         else{
-            System.out.println("Non zero Digit is: "+div);
+            System.out.println("Non zero Digit is: "+Math.abs(div));
         }
 
         scan.close();
