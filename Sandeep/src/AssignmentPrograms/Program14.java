@@ -22,6 +22,7 @@ public class Program14 {
         System.out.println("DigiRoot of the number is :: " + sum);
 
     }
+ 
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
