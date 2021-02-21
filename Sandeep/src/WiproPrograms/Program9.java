@@ -1,15 +1,11 @@
 package WiproPrograms;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Program9 {
     public static int size;
-    private static int[] arr1;
-    private static int[] arr2;
-    private static int arr;
 
     // input validation
-    // validation method
     public static int inputValidation(Scanner sc) {
         do {
             System.out.println("enter  Postive Number: ");
@@ -23,44 +19,55 @@ public class Program9 {
         return size;
     }
 
-    public static void prime(int number) {
+    public static boolean prime(int number) {
 
-        // return;
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+
+            }
+        }
+        return true;
+
     }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         size = inputValidation(sc);
-
-        System.out.println("Enetr numbers :: ");
-        // taketing inputs i.e is different numbers
-        int[] number = new int[size];
+        int[] number = new int[size];// input array
+        // To store non prime numbers
+        int[] nonPrimeNum = new int[number.length];
+        boolean isPrime = false;// prime check variable
+        int primeCount = 0;// prime count
+        int j = 0;
+        // Taking elements into Array
+        System.out.println("Enter Array elements : ");
         for (int i = 0; i < size; i++) {
             number[i] = sc.nextInt();
+
         }
 
-        // code for prime
-        int count = 0, i = 1;
-        for (int j = 0; j < size; j++) {
-            while (i <= number[j]) {
-                if (number[j] % i == 0) {
-                    count++;
-                }
-                i++;
-            }
-            if (count == 2) {
-                arr1[j] = number[j];
+        // Logic
+        for (int i = 0; i < number.length; i++) {
+            if (number[i] <= 1) {
+                nonPrimeNum[j] = number[i];
+                j++;
             } else {
-                // System.out.println(number + " is not a prime number");
-                arr2[j] = number[j];
+                isPrime = prime(number[i]);
+                if (isPrime) {
+                    System.out.print(number[i] + " ");
+                    primeCount++;
+                } else {
+                    nonPrimeNum[j] = number[i];
+                    j++;
+
+                }
             }
-            System.out.println(Arrays.toString(arr1));
-            System.out.println(Arrays.toString(arr2));
 
         }
-        // for (int j = 0; j < size; j++) {
-        // arr = (arr1[j] + arr2[j]);
-        // }
+        for (int i = 0; i < (size - primeCount); i++) {
+            System.out.print(" " + nonPrimeNum[i]);
+        }
 
     }
 

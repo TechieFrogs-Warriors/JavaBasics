@@ -34,7 +34,7 @@ public class Program13 {
         for (int i = 0; i < size; i++) {
             System.out.print(num[i] + " ");
         }
-        int range1 = 2, range2 = 4;
+        int range1 = 3, range2 = 6;
         System.out.println("\nElemts other then the range are");
         for (int i = 0; i < size; i++) {
             if (num[i] >= range1 && num[i] <= range2) {

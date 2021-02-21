@@ -3,12 +3,27 @@ package WiproPrograms;
 import java.util.*;
 
 public class Program15 {
+    public static String s1;
+
+    public static String inputValidation(Scanner sc) {
+        do {
+            System.out.println("Enetr String: ");
+            while (!sc.hasNext("[A-Za-z]*")) {
+                System.out.println("This is not a string please enter String: ");
+                sc.next();
+            }
+            s1 = sc.nextLine();
+        } while (s1.equals(""));
+        System.out.println("Enter  String Is valid ");
+        return s1;
+    }
+
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the string");
 
-        String s1 = sc.nextLine();
+        s1 = inputValidation(sc);
         s1 = s1.toLowerCase();
 
         String[] words = s1.split(" ");// to split words in a string based on space

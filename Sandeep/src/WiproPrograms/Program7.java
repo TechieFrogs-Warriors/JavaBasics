@@ -36,10 +36,10 @@ public class Program7 {
         for (int i = 0; i < size; i++) {// printing original elements
             System.out.print(number[i] + " ");
         }
-        int a = 2, b = 4;
-        System.out.println("Reverse oder of elemts ");
+        int a = 2, b = 5;
+
         System.out.println("\n\nReverse order of elemnts in array are ");
-        for (int i = 0; i < b; i++) {// llop to print the numbers befor the start point
+        for (int i = 0; i < size; i++) {// llop to print the numbers befor the start point
             System.out.print(number[i] + " ");
             if (i == (a - 1)) {// condition to start rev form the start point
                 for (int j = b; j >= a; j--) {// reverse the values from start to end point
