@@ -11,16 +11,19 @@ public class Excercises39 {
         String s1 = sc.nextLine();
         s1 = s1.toLowerCase();
         String str[] = s1.split(" ");
-
+        int count = 0;
         System.out.println("Dublicate of Words are---");
         for (int i = 0; i < str.length; i++) {
             for (int j = i + 1; j < str.length; j++) {
                 if (str[i].equals(str[j])) {
                     System.out.println(str[j]);
                     break;
+                } else {
+                    count++;
                 }
             }
         }
+        System.out.println(count);
         sc.close();
     }
 
