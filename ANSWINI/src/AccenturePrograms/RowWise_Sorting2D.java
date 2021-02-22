@@ -39,25 +39,23 @@ public class RowWise_Sorting2D
              
         }
         //calling method that sort rows of 2D array elements
-        sortRowWise(arr); 
+        rowSorting(arr); 
         sc.close();
     } 
 
     //Logic
-    public static int sortRowWise(int mat[][]) 
+    public static void rowSorting(int mat[][]) 
     { 
-        // loop for rows of matrix 
         for (int i=0;i < mat.length;i++) 
         { 
-            // loop for column of matrix 
-            for (int j=0;j < mat[i].length;j++) 
-            { 
-                // loop for comparison and swapping 
-                for (int k=0;k < mat[i].length-j-1;k++) 
+            for (int j=0;j < mat.length;j++) 
+            {  
+                //sorting loop
+                for (int k=0;k < mat.length-j-1;k++)  
                 { 
                     if (mat[i][k] > mat[i][k + 1]) 
                     { 
-                        // swapping of elements 
+                        // swapping the matrix elements  
                         int temp = mat[i][k]; 
                         mat[i][k] = mat[i][k+1]; 
                         mat[i][k+1] = temp; 
@@ -65,20 +63,17 @@ public class RowWise_Sorting2D
                 } 
             } 
         } 
-  
-        // printing the Row sorted matrix 
-        System.out.println("Row sorted matrix elements are: ");
-        for (int i = 0; i < mat.length; i++) 
+        //print the elements after sorting rows
+        System.out.println("Matrix elements after sorting rows are : ");
+        for (int i=0;i<mat.length;i++) 
         { 
-            for (int j = 0; j < mat[i].length; j++)
+            for (int j=0;j<mat.length;j++)
             {
                 System.out.print(mat[i][j] + " "); 
             }
             System.out.println(); 
         } 
-        return 0; 
-    } 
-  
     
+    } 
     
 }

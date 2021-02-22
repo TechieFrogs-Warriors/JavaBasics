@@ -49,12 +49,12 @@ public class PerfectNumberProgram
             //perfect number will be divided perfectly by the numbers less than it ,excluding itself .
             while(number<i)
             {
-                if(i%number==0)
-                sum=sum+number;
+                if(i % number == 0)
+                sum = sum + number;
                 number++;
             }
             //comparing the number with its divisor's sum
-            if(sum==i)
+            if(sum == i)
             {
                 count++;//incrementing perfect number count
                 System.out.println("Perfect number is : "+i);//printing perfect number
