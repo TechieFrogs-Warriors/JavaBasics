@@ -8,7 +8,7 @@ public class ConvertLowertoUpper11 {
         System.out.println("Enter String: ");
         String Str1=scan.nextLine();
         StringBuffer Str=new StringBuffer(Str1);
-        for(int i=0;i<=Str1.length();i++){
+        for(int i=0;i<Str1.length();i++){
             if(Character.isLowerCase(Str1.charAt(i))){
                 Str.setCharAt(i, Character.toUpperCase(Str1.charAt(i)));
             }
