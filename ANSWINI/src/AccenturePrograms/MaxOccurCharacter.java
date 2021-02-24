@@ -19,7 +19,7 @@ public class MaxOccurCharacter
                 sc.next();
             }
             st=sc.nextLine();
-        }while(st != "");
+        }while(st.equals(""));
         System.out.println("It is a valid string"+st);
 
         st=st.toLowerCase();
@@ -30,7 +30,7 @@ public class MaxOccurCharacter
          
         //array to count occurence of element
         int count[]=new int[st.length()];
-        int  maxCount=count[0];
+        int  maxCount=0;
 
         for(int i = 0; i < ch.length; i++)
 		{    

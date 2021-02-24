@@ -11,20 +11,19 @@ public class NonZero_LastDigit_OfFactorial
         System.out.println("Enter the number");
         int n=sc.nextInt();
         //logic
-        int fact=1,count=1,nonZero=1;
+        int fact=1,nonZeroDigit=1;
         if(n>0)
         {
             //finding factorial
-            while(n>count)
+            for(int i=1;i<=n;i++)
             {
-                fact = Math.abs(fact * n);
-                n--;
+                fact = fact * i;
             }
             System.out.println("factorial is: "+fact);
             
             //Logic to find non-zero digit
-            nonZero = fact % 10;
-            if(nonZero == 0)
+            nonZeroDigit = fact % 10;
+            if(nonZeroDigit == 0)
             {
                 fact = Math.abs(fact % 100);
                 fact = Math.abs(fact / 10);
@@ -32,7 +31,7 @@ public class NonZero_LastDigit_OfFactorial
             }
             else
             {
-                System.out.println("nonzero digit is: "+nonZero);
+                System.out.println("nonzero digit is: "+nonZeroDigit);
             }
 
         }
