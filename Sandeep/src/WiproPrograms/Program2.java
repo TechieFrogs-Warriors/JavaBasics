@@ -19,12 +19,13 @@ public class Program2 {
         return numberOfProducts;
     }
 
+    // method for the cubeic numbers
     public static int perfectCube(int tp) {
         int perfectCube = (int) Math.floor(Math.cbrt(tp)) + 1;// to find the next cube root
         int pc = perfectCube * perfectCube * perfectCube;
         if (tp == pc) {
-            System.out.println("yes");
-            return 0;
+            System.out.println("yes");// if cube root it prints yes
+            return pc;
         } else {
             perfectCube = (int) Math.floor(Math.cbrt(tp)) + 1;// to find the next cube root
             pc = perfectCube * perfectCube * perfectCube;
