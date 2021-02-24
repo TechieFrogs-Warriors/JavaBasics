@@ -43,13 +43,13 @@ public class SumOfOddNumbers
     public static void odd_Sum(int startNum,int endNum)
     {
         //Logic
-        int oddSum = 0;
+        int oddNumSum = 0;
         for(int i=startNum;i<=endNum;i++)
         {
             if(i%2 != 0)
-            oddSum = oddSum + i;
+            oddNumSum = oddNumSum + i;
         }
-        System.out.println("sum of odd numbers between "+startNum+" and "+endNum+" is : "+oddSum);
+        System.out.println("sum of odd numbers between "+startNum+" and "+endNum+" is : "+oddNumSum);
     }
     
 }

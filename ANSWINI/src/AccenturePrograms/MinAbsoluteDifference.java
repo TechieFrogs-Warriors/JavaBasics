@@ -17,7 +17,7 @@ public class MinAbsoluteDifference
         // min absolute difference for the last array element 
         sum = sum + Math.abs(arr[n-1] - arr[n-2]); 
           
-        // find min absolute difference for rest of the array elements and add them to sum 
+        // min absolute difference for rest of the array elements and add them to sum 
         for (int i=1;i<n-1;i++) 
         {
             sum = sum + Math.min(Math.abs(arr[i] - arr[i-1]),Math.abs(arr[i] - arr[i+1]));
@@ -39,6 +39,7 @@ public class MinAbsoluteDifference
             arr[i] = sc.nextInt();
         }
         int n = arr.length; //calculating array length
+        
         // calling Method to find the sum of minimum absolute difference 
         System.out.println( "Sum = "+ sumOfMinAbsDifferences(arr, n));
         sc.close(); 
