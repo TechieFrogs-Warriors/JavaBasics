@@ -34,6 +34,7 @@ public class Program10 {
 
         }
         System.out.println("/nMost occured word is :: " + num);
+        sc.close();
 
     }
 

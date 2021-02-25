@@ -5,6 +5,7 @@ import java.util.*;
 public class Program1 {
     public static String str;
 
+    // input validation method
     public static String inputValidation(Scanner sc) {
         do {
             System.out.println("Enetr String: ");

@@ -22,31 +22,40 @@ public class DigiRootProgram
         }while(num<=0);
 
         //calling method that performs logic
-        calDigiRoot(num);
+        calculateDigiRoot(num);
 
         sc.close();
         
     }
-    public static void calDigiRoot(int number)
+    public static void calculateDigiRoot(int number)
     {
-        //Logic
-        int sum=0,remainder;
-        while(number > 10)
+        //check if the number is a single digit number
+        if(number>0 && number<=9)
         {
-            sum=0;
-            while(number!=0)
-            {
-                remainder = number % 10;
-                number = number / 10;
-                sum = sum + remainder;
-            }
-            if(sum > 10)
-            number = sum;
-            else
-            break;
-        
+            System.out.println("DigiRoot of the number is: "+number);
         }
-        System.out.println("DigiRoot of is : "+sum);
+        else
+        {
+            //Logic
+            int sum=0,remainder;
+            while(number >= 10)
+            {
+                sum=0;
+                while(number!=0)
+                {
+                    remainder = number % 10;
+                    sum = sum + remainder;
+                    number = number / 10;
+                    
+                }
+                if(sum > 10)
+                number = sum;
+                else
+                break;
+            
+            }
+            System.out.println("DigiRoot of is : "+sum);
+        }
         
     } 
     
