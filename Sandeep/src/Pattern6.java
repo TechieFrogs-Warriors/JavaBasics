@@ -23,7 +23,7 @@ public class Pattern6 {
 
             for (int j = 1; j <= row; j++) {
                 if (i == 1 || i == row || j == 1 || j == row) {
-                    System.out.print(i);
+                    System.out.print("*");
 
                 } else {
                     System.out.print(" ");
