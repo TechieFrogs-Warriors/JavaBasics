@@ -10,14 +10,14 @@ public class Program1 {
         System.out.println("Enter number of candies required:");
         int r_Candies = vallidation(scan);
         int sold = 0;
-        if(n_Candies>0 | n_Candies<=n_Candies/2){
+        if(n_Candies>0 | n_Candies<=n_Candies/2 && n_Candies>r_Candies){
             sold = n_Candies -r_Candies;
             System.out.println("NUMBER OF CANDIES SOLD :"+r_Candies);
             System.out.println("NUMBER OF CANDIES AVAILABLE : "+sold);
         }
         else{
             System.out.println("INVALID INPUT.");
-            System.out.println("NUMBER OF CANDIES AVAILABLE: "+sold);
+            System.out.println("NUMBER OF CANDIES AVAILABLE: "+n_Candies);
         }
     }
     //number vallidation

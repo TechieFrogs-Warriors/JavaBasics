@@ -7,7 +7,7 @@ public class Program5 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter Number of Exterior walls: ");
         int e_wall = vallidation(scan);
-        System.out.println("Enter Number of Exterior walls: ");
+        System.out.println("Enter Number of interior walls: ");
         int i_wall = vallidation(scan);
         //paint cost
         int i_Paint=18,e_Paint=12;
