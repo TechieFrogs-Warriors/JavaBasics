@@ -29,7 +29,7 @@ public class Program6 {
 
         int startpoint = 0, endPoint = 0;
 
-        float fair = 0f;
+        float fare = 0f;
 
         int[] path = new int[] { 800, 600, 750, 900, 1400, 1200, 1100, 1500 };
 
@@ -51,11 +51,11 @@ public class Program6 {
 
                 j = j % busStop.length;// to start the index value from the first after ending the array point
 
-                fair += (path[j] * 0.005);// 1000m=5 so 1m=0.005
+                fare += (path[j] * 0.005);// 1000m=5 so 1m=0.005
 
                 if (busStop[j].equals(destination)) {// if its travalled till the destination then it breaks
 
-                    System.out.println(Math.ceil(fair) + "INR");
+                    System.out.println(Math.ceil(fare) + "INR");
                     break;
                 }
 
