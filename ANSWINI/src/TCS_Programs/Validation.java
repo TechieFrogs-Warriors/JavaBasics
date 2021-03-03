@@ -58,4 +58,19 @@ public class Validation
         }while(s.equals(""));
         return s;
     }
+
+
+    //Another integer validation
+    public static boolean numberOrNot(String input)
+    {
+        try
+        {
+            Integer.parseInt(input);
+        }
+        catch(NumberFormatException ex)
+        {
+            return false;
+        }
+        return true;
+    }
 }

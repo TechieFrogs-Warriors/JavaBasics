@@ -9,7 +9,6 @@ public class Factors11 {
         for(int i=1;i<number;i++){
             if(number%i==0){
                 fact1=fact1+i;
-                System.out.println(i);
             }
         }
         System.out.println(fact1);

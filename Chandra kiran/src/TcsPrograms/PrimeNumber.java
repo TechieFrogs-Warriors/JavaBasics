@@ -18,6 +18,7 @@ public class PrimeNumber
         if(num==0||num==1)
         {
           System.out.println("n is not a prime number");
+        
 
         }
         for(i=2;i<=m;i++)//for loop for factors
