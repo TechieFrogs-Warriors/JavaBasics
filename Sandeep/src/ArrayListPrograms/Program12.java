@@ -26,5 +26,12 @@ public class Program12 {
         list.remove(5);
         System.out.println("\nAfter removing value based on spicific position :: " + list);
 
+        ArrayList<Integer> list1 = new ArrayList<Integer>();
+        list1.add(32);
+        list1.add(55);
+
+        list1.remove(0);
+        System.out.println(list1);
+
     }
 }
