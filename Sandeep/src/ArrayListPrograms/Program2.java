@@ -16,8 +16,8 @@ public class Program2 {
         // traversing list through iterator
         Iterator obj = list.iterator();// getting iterator
 
-        while (obj.hasNext()) {// chaecks till the last value of the iterator
-            System.out.println(obj.next());// prints the element and moves to the next elemnt till the last elemnt
+        while (obj.hasNext()) {
+            System.out.println(obj.next());// prints the element and moves to the next elemnt till the last element
         }
     }
 }

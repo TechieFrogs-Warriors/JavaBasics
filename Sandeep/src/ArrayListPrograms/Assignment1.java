@@ -2,7 +2,7 @@ package ArrayListPrograms;
 
 import java.util.*;
 
-public class Program1 {
+public class Assignment1 {
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();// creating a arraylist
         // adding the elemts in the list using the add() method
@@ -14,4 +14,5 @@ public class Program1 {
 
         System.out.println(list);
     }
+
 }
