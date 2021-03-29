@@ -12,7 +12,7 @@ public class Assignment1 {
         list.add("Karthik");
         list.add("Kalyani");
 
-        System.out.println(list);
+        System.out.println("the data in the ArryList \n" + list);
     }
 
 }

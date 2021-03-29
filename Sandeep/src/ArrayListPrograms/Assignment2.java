@@ -28,7 +28,8 @@ public class Assignment2 {
         alist.add(20);
 
         // removing the 19th element from the list
-        alist.remove(19);   
+        alist.remove(19);
+        System.out.println("The ArrayLIst after deleting the 19th element");
         for (int i = 0; i < alist.size(); i++) {
             System.out.println(alist.get(i));
         }

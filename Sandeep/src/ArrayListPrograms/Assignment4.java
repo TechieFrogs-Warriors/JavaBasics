@@ -19,7 +19,7 @@ public class Assignment4 {
         alist.add("kiran");
 
         // now getting the 7th element from the arraylist
-        System.out.println(alist.get(7));
+        System.out.println("the 7th element in the ArrayList is :: " + alist.get(7));
 
     }
 
