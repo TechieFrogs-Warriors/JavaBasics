@@ -12,6 +12,8 @@ public class program9 {
         list.add("Karthik");
         list.add("Kalyani");
 
+        // Iterator<String> obj = list.iterator();
+        // in this method we cannot use iterrator
         // this forEach() method is introduced in the java8
 
         list.forEach(a -> {// here in theis method we use lambda expression

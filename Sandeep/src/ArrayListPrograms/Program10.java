@@ -13,7 +13,7 @@ public class Program10 {
         list.add("Kalyani");
 
         Iterator<String> obj = list.iterator();
-
+        // here we cannot assign the ArrayList object directly to the method
         obj.forEachRemaining(a -> {
             System.out.println(a);
         });
