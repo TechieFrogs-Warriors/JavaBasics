@@ -14,11 +14,11 @@ public class TreeMapPractice
         
         mymap.put(5, "A");
         mymap.put(2, "B");
-       // mymap.put(3, null); //throws null pointer exception,because treemap dont accept null values
-        //mymap.put(null, null); //throws null pointer exception,because treemap dont accept null values
+        mymap.put(3, null); 
+        //mymap.put(null, null); //throws null pointer exception,because treemap dont accept null value for key
         mymap.put(3, "C"); //same key entry will replaces/updates the  old entry
-       // mymap.put(null, "A"); //throws null pointer exception,because treemap dont accept null values
-       // mymap.put(1, null); //throws null pointer exception,because treemap dont accept null values
+       // mymap.put(null, "A"); //throws null pointer exception,because treemap dont accept null value for key
+        mymap.put(1, null); 
         mymap.putIfAbsent(6, "D"); //puts the entry only if that key is already not there
 
         //printing map entry
