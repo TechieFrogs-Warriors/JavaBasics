@@ -17,6 +17,7 @@ public class Program2 {
         Iterator obj = list.iterator();// getting iterator
 
         while (obj.hasNext()) {
+            // list.remove("Kalyani");
             System.out.println(obj.next());// prints the element and moves to the next elemnt till the last element
         }
     }

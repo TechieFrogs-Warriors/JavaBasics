@@ -1,4 +1,4 @@
-class ABC {
+class ABCA {
     int i = 20, j = 30;
     String name = "sai";
 
